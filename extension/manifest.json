@@ -1,10 +1,16 @@
 {
-  "name": "Next Chrome",
-  "description": "Next.js Chrome Extension starter",
+  "name": "YoYo Extension",
+  "description": "Next.js Chrome Extension",
   "version": "0.0.1",
   "manifest_version": 3,
   "action": {
-    "default_title": "Next.js app",
+    "default_title": "YoYo Extension",
     "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
   }
 }

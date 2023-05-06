@@ -1,6 +1,7 @@
-import styles from "../styles/Home.module.css";
+import styles from "../../next-app/styles/Home.module.css"
+import React from 'react';
 
-const IndexPage = () => {
+const IndexPage: React.FC = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -10,7 +11,7 @@ const IndexPage = () => {
 
         <p className={styles.description}>
           Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
@@ -43,24 +44,6 @@ const IndexPage = () => {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <img
-              src="assets/vercel.svg"
-              alt="Vercel Logo"
-              width={72}
-              height={16}
-            />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };
